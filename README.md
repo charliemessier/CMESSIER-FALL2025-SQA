@@ -1,18 +1,3 @@
-\# CMESSIER-FALL2025-SQA
+Team Name: CMESSIER
 
-
-
-\*\*Course:\*\* COMP 5710 - Software Quality Assurance  
-
-\*\*Project:\*\* MLForensics SQA Integration
-
-
-
-\## Team
-
-
-
-\- Charles Messier (CMESSIER)
-
-
-
+Team Members: Charlie Messier
