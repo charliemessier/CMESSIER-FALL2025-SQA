@@ -3,11 +3,15 @@ Akond Rahman
 Nov 15, 2020
 Frequency: RQ2
 '''
-import numpy as np 
-import os 
-import pandas as pd 
-import time 
-import datetime 
+import numpy as np
+import os
+import pandas as pd
+import time
+import datetime
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 def giveTimeStamp():
   tsObj = time.time()
@@ -15,12 +19,20 @@ def giveTimeStamp():
   return strToret
 
 
-def getAllSLOC(df_param, csv_encoding='latin-1' ):
+def getAllSLOC(df_param, csv_encoding="latin-1"):
+    logger.info("getAllSLOC called with %d rows", len(df_param))
     total_sloc = 0
-    all_files = np.unique( df_param['FILE_FULL_PATH'].tolist() ) 
+    all_files = np.unique(df_param["FILE_FULL_PATH"].tolist())
     for file_ in all_files:
-        total_sloc = total_sloc + sum(1 for line in open(file_, encoding=csv_encoding))
+        try:
+            line_count = sum(1 for _ in open(file_, encoding=csv_encoding))
+            total_sloc += line_count
+            logger.debug("Counted %d lines in %s", line_count, file_)
+        except Exception as e:
+            logger.error("Failed to count lines in %s: %s", file_, e)
+    logger.info("getAllSLOC returning total_sloc=%d", total_sloc)
     return total_sloc
+
 
 def reportProportion( res_file, output_file ):
     res_df = pd.read_csv( res_file )

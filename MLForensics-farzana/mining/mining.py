@@ -1,13 +1,17 @@
 import os
-import pandas as pd 
+import pandas as pd
 import numpy as np
-import csv 
-import time 
+import csv
+import time
 from datetime import datetime
 import subprocess
 import shutil
 from git import Repo
-from git import exc 
+from git import exc
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 
 def giveTimeStamp():
@@ -26,15 +30,26 @@ def deleteRepo(dirName, type_):
         
         
 def dumpContentIntoFile(strP, fileP):
-    fileToWrite = open( fileP, 'w')
-    fileToWrite.write(strP )
-    fileToWrite.close()
-    return str(os.stat(fileP).st_size)
+    logger.info("dumpContentIntoFile called for path=%s, content_len=%d", fileP, len(strP))
+    try:
+        with open(fileP, "w") as fileToWrite:
+            fileToWrite.write(strP)
+        size_str = str(os.stat(fileP).st_size)
+        logger.info("dumpContentIntoFile wrote %s bytes to %s", size_str, fileP)
+        return size_str
+    except Exception as e:
+        logger.error("dumpContentIntoFile failed for path=%s: %s", fileP, e)
+        raise
+
   
   
 def makeChunks(the_list, size_):
+    logger.debug("makeChunks called with list_len=%d, size_=%d", len(the_list), size_)
     for i in range(0, len(the_list), size_):
-        yield the_list[i:i+size_]
+        chunk = the_list[i : i + size_]
+        logger.debug("makeChunks produced chunk starting at index %d with length %d", i, len(chunk))
+        yield chunk
+
         
         
 def cloneRepo(repo_name, target_dir):

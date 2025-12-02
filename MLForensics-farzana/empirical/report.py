@@ -3,12 +3,16 @@ Farzana Ahamed Bhuiyan
 Dec 3, 2020
 Report Frequency: RQ2
 '''
-import numpy as np 
-import os 
-import pandas as pd 
-import time 
-import datetime 
+import numpy as np
+import os
+import pandas as pd
+import time
+import datetime
 import statistics
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 
 def giveTimeStamp():
@@ -16,11 +20,19 @@ def giveTimeStamp():
   strToret = datetime.datetime.fromtimestamp(tsObj).strftime( '%Y-%m-%d %H:%M:%S' ) 
   return strToret
 
-def Average(Mylist): 
-    return sum(Mylist) / len(Mylist)
-    
-def Median(Mylist): 
-    return statistics.median(Mylist)
+def Average(Mylist):
+    logger.debug("Average called with list_len=%d", len(Mylist))
+    avg_val = sum(Mylist) / len(Mylist)
+    logger.debug("Average returning %f", avg_val)
+    return avg_val
+
+
+def Median(Mylist):
+    logger.debug("Median called with list_len=%d", len(Mylist))
+    median_val = statistics.median(Mylist)
+    logger.debug("Median returning %f", median_val)
+    return median_val
+
     
 def reportProp( res_file ):
     res_df = pd.read_csv(res_file) 

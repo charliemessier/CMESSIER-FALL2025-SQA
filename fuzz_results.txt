@@ -1,0 +1,303 @@
+------ FUZZING START ------
+Timestamp: 2025-12-02 15:41:53
+[ROUND 1/50]
+[OK] getAllSLOC -> total_sloc=76 for 5 files
+[OK] Average -> input_len=17, result=229.46081120887627
+[OK] Median -> input_len=12, result=234.14673495924694
+[OK] makeChunks -> list_size=30, chunk_size=2, num_chunks=15
+[OK] dumpContentIntoFile -> content_len=57, reported_size=57
+[ROUND 2/50]
+[OK] getAllSLOC -> total_sloc=82 for 5 files
+[OK] Average -> input_len=5, result=-84.81960610815459
+[OK] Median -> input_len=13, result=-260.09227796147536
+[OK] makeChunks -> list_size=30, chunk_size=7, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=185, reported_size=185
+[ROUND 3/50]
+[OK] getAllSLOC -> total_sloc=52 for 4 files
+[OK] Average -> input_len=12, result=-269.35226320644045
+[OK] Median -> input_len=21, result=117.2799792651856
+[OK] makeChunks -> list_size=0, chunk_size=1, num_chunks=0
+[OK] dumpContentIntoFile -> content_len=82, reported_size=82
+[ROUND 4/50]
+[OK] getAllSLOC -> total_sloc=36 for 2 files
+[OK] Average -> input_len=21, result=295.1322860346901
+[OK] Median -> input_len=5, result=-108.17655944459204
+[OK] makeChunks -> list_size=17, chunk_size=3, num_chunks=6
+[OK] dumpContentIntoFile -> content_len=199, reported_size=199
+[ROUND 5/50]
+[OK] getAllSLOC -> total_sloc=7 for 1 files
+[OK] Average -> input_len=17, result=-37.71559196764697
+[OK] Median -> input_len=24, result=-81.96035840132299
+[OK] makeChunks -> list_size=5, chunk_size=4, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=193, reported_size=193
+[ROUND 6/50]
+[OK] getAllSLOC -> total_sloc=51 for 3 files
+[OK] Average -> input_len=7, result=150.40198500531042
+[OK] Median -> input_len=10, result=-42.644385162850426
+[OK] makeChunks -> list_size=30, chunk_size=9, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=124, reported_size=124
+[ROUND 7/50]
+[OK] getAllSLOC -> total_sloc=77 for 5 files
+[OK] Average -> input_len=10, result=-307.1232723921254
+[OK] Median -> input_len=6, result=33.55132973770202
+[OK] makeChunks -> list_size=5, chunk_size=9, num_chunks=1
+[OK] dumpContentIntoFile -> content_len=40, reported_size=40
+[ROUND 8/50]
+[OK] getAllSLOC -> total_sloc=53 for 4 files
+[OK] Average -> input_len=1, result=-593.5975821420029
+[OK] Median -> input_len=3, result=496.2373133286983
+[OK] makeChunks -> list_size=24, chunk_size=1, num_chunks=24
+[OK] dumpContentIntoFile -> content_len=83, reported_size=83
+[ROUND 9/50]
+[OK] getAllSLOC -> total_sloc=27 for 2 files
+[OK] Average -> input_len=23, result=196.6644655320209
+[OK] Median -> input_len=1, result=-804.0083384129226
+[OK] makeChunks -> list_size=11, chunk_size=7, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=144, reported_size=144
+[ROUND 10/50]
+[OK] getAllSLOC -> total_sloc=45 for 3 files
+[OK] Average -> input_len=24, result=-77.688349496472
+[OK] Median -> input_len=12, result=476.3093057687123
+[OK] makeChunks -> list_size=15, chunk_size=7, num_chunks=3
+[OK] dumpContentIntoFile -> content_len=171, reported_size=171
+[ROUND 11/50]
+[OK] getAllSLOC -> total_sloc=79 for 5 files
+[OK] Average -> input_len=25, result=-26.195306304238112
+[OK] Median -> input_len=14, result=-328.2763265534396
+[OK] makeChunks -> list_size=33, chunk_size=8, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=66, reported_size=66
+[ROUND 12/50]
+[OK] getAllSLOC -> total_sloc=21 for 2 files
+[OK] Average -> input_len=20, result=-97.82559132683043
+[OK] Median -> input_len=25, result=178.46662346381572
+[OK] makeChunks -> list_size=39, chunk_size=9, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=128, reported_size=128
+[ROUND 13/50]
+[OK] getAllSLOC -> total_sloc=40 for 3 files
+[OK] Average -> input_len=23, result=73.3802914855722
+[OK] Median -> input_len=10, result=364.0837146240433
+[OK] makeChunks -> list_size=6, chunk_size=1, num_chunks=6
+[OK] dumpContentIntoFile -> content_len=6, reported_size=6
+[ROUND 14/50]
+[OK] getAllSLOC -> total_sloc=24 for 2 files
+[OK] Average -> input_len=9, result=58.168209449198635
+[OK] Median -> input_len=22, result=-64.52865241372285
+[OK] makeChunks -> list_size=34, chunk_size=1, num_chunks=34
+[OK] dumpContentIntoFile -> content_len=157, reported_size=157
+[ROUND 15/50]
+[OK] getAllSLOC -> total_sloc=21 for 1 files
+[OK] Average -> input_len=1, result=-551.6502340726477
+[OK] Median -> input_len=9, result=-267.9902269404271
+[OK] makeChunks -> list_size=27, chunk_size=6, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=24, reported_size=24
+[ROUND 16/50]
+[OK] getAllSLOC -> total_sloc=43 for 4 files
+[OK] Average -> input_len=9, result=128.55308929622197
+[OK] Median -> input_len=11, result=-79.78852734099132
+[OK] makeChunks -> list_size=14, chunk_size=9, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=4, reported_size=4
+[ROUND 17/50]
+[OK] getAllSLOC -> total_sloc=29 for 2 files
+[OK] Average -> input_len=17, result=57.46077090668053
+[OK] Median -> input_len=14, result=-152.17091228400415
+[OK] makeChunks -> list_size=2, chunk_size=1, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=2, reported_size=2
+[ROUND 18/50]
+[OK] getAllSLOC -> total_sloc=59 for 4 files
+[OK] Average -> input_len=12, result=6.540148650293456
+[OK] Median -> input_len=6, result=-64.95501445909883
+[OK] makeChunks -> list_size=35, chunk_size=1, num_chunks=35
+[OK] dumpContentIntoFile -> content_len=73, reported_size=73
+[ROUND 19/50]
+[OK] getAllSLOC -> total_sloc=17 for 1 files
+[OK] Average -> input_len=17, result=230.18152643909457
+[OK] Median -> input_len=5, result=98.5244792026217
+[OK] makeChunks -> list_size=15, chunk_size=9, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=31, reported_size=31
+[ROUND 20/50]
+[OK] getAllSLOC -> total_sloc=7 for 2 files
+[OK] Average -> input_len=24, result=27.46465880710507
+[OK] Median -> input_len=9, result=-270.75505091992284
+[OK] makeChunks -> list_size=4, chunk_size=1, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=28, reported_size=28
+[ROUND 21/50]
+[OK] getAllSLOC -> total_sloc=17 for 1 files
+[OK] Average -> input_len=14, result=229.26188616162284
+[OK] Median -> input_len=14, result=40.65766309955461
+[OK] makeChunks -> list_size=39, chunk_size=1, num_chunks=39
+[OK] dumpContentIntoFile -> content_len=183, reported_size=183
+[ROUND 22/50]
+[OK] getAllSLOC -> total_sloc=24 for 1 files
+[OK] Average -> input_len=7, result=261.3318178927999
+[OK] Median -> input_len=24, result=284.9241489317293
+[OK] makeChunks -> list_size=30, chunk_size=10, num_chunks=3
+[OK] dumpContentIntoFile -> content_len=13, reported_size=13
+[ROUND 23/50]
+[OK] getAllSLOC -> total_sloc=33 for 3 files
+[OK] Average -> input_len=16, result=-53.91469028840939
+[OK] Median -> input_len=4, result=-693.3110100333395
+[OK] makeChunks -> list_size=25, chunk_size=3, num_chunks=9
+[OK] dumpContentIntoFile -> content_len=151, reported_size=151
+[ROUND 24/50]
+[OK] getAllSLOC -> total_sloc=57 for 4 files
+[OK] Average -> input_len=9, result=-27.513906147280043
+[OK] Median -> input_len=9, result=356.31334320632027
+[OK] makeChunks -> list_size=34, chunk_size=3, num_chunks=12
+[OK] dumpContentIntoFile -> content_len=112, reported_size=112
+[ROUND 25/50]
+[OK] getAllSLOC -> total_sloc=29 for 1 files
+[OK] Average -> input_len=5, result=-487.87836860770375
+[OK] Median -> input_len=7, result=-143.93773132290778
+[OK] makeChunks -> list_size=13, chunk_size=6, num_chunks=3
+[OK] dumpContentIntoFile -> content_len=73, reported_size=73
+[ROUND 26/50]
+[OK] getAllSLOC -> total_sloc=41 for 3 files
+[OK] Average -> input_len=21, result=-252.11200381989897
+[OK] Median -> input_len=13, result=109.30029361986635
+[OK] makeChunks -> list_size=29, chunk_size=5, num_chunks=6
+[OK] dumpContentIntoFile -> content_len=26, reported_size=26
+[ROUND 27/50]
+[OK] getAllSLOC -> total_sloc=61 for 4 files
+[OK] Average -> input_len=10, result=64.83274661464033
+[OK] Median -> input_len=14, result=43.87905128169149
+[OK] makeChunks -> list_size=22, chunk_size=5, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=141, reported_size=141
+[ROUND 28/50]
+[OK] getAllSLOC -> total_sloc=39 for 5 files
+[OK] Average -> input_len=25, result=66.68584147867863
+[OK] Median -> input_len=19, result=-83.93116053917856
+[OK] makeChunks -> list_size=11, chunk_size=3, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=137, reported_size=137
+[ROUND 29/50]
+[OK] getAllSLOC -> total_sloc=34 for 3 files
+[OK] Average -> input_len=17, result=-14.428694999713946
+[OK] Median -> input_len=7, result=-8.886314905373752
+[OK] makeChunks -> list_size=26, chunk_size=3, num_chunks=9
+[OK] dumpContentIntoFile -> content_len=174, reported_size=174
+[ROUND 30/50]
+[OK] getAllSLOC -> total_sloc=87 for 5 files
+[OK] Average -> input_len=20, result=-49.09131063900291
+[OK] Median -> input_len=12, result=-557.6181822708127
+[OK] makeChunks -> list_size=1, chunk_size=8, num_chunks=1
+[OK] dumpContentIntoFile -> content_len=79, reported_size=79
+[ROUND 31/50]
+[OK] getAllSLOC -> total_sloc=39 for 2 files
+[OK] Average -> input_len=2, result=-420.03477780713183
+[OK] Median -> input_len=4, result=87.95814295932848
+[OK] makeChunks -> list_size=0, chunk_size=4, num_chunks=0
+[OK] dumpContentIntoFile -> content_len=162, reported_size=162
+[ROUND 32/50]
+[OK] getAllSLOC -> total_sloc=78 for 5 files
+[OK] Average -> input_len=6, result=-9.740438390159682
+[OK] Median -> input_len=24, result=-498.80739242061895
+[OK] makeChunks -> list_size=3, chunk_size=3, num_chunks=1
+[OK] dumpContentIntoFile -> content_len=161, reported_size=161
+[ROUND 33/50]
+[OK] getAllSLOC -> total_sloc=3 for 1 files
+[OK] Average -> input_len=22, result=-273.158030695836
+[OK] Median -> input_len=3, result=-269.49939383511867
+[OK] makeChunks -> list_size=19, chunk_size=9, num_chunks=3
+[OK] dumpContentIntoFile -> content_len=58, reported_size=58
+[ROUND 34/50]
+[OK] getAllSLOC -> total_sloc=34 for 3 files
+[OK] Average -> input_len=19, result=233.57604949245936
+[OK] Median -> input_len=11, result=-599.9876490298128
+[OK] makeChunks -> list_size=20, chunk_size=10, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=198, reported_size=198
+[ROUND 35/50]
+[OK] getAllSLOC -> total_sloc=73 for 4 files
+[OK] Average -> input_len=22, result=155.58080435455076
+[OK] Median -> input_len=18, result=-39.740169990100185
+[OK] makeChunks -> list_size=40, chunk_size=2, num_chunks=20
+[OK] dumpContentIntoFile -> content_len=172, reported_size=172
+[ROUND 36/50]
+[OK] getAllSLOC -> total_sloc=25 for 1 files
+[OK] Average -> input_len=21, result=-20.1896235451534
+[OK] Median -> input_len=16, result=50.28784658760719
+[OK] makeChunks -> list_size=28, chunk_size=3, num_chunks=10
+[OK] dumpContentIntoFile -> content_len=125, reported_size=125
+[ROUND 37/50]
+[OK] getAllSLOC -> total_sloc=27 for 1 files
+[OK] Average -> input_len=13, result=-65.14585719150958
+[OK] Median -> input_len=19, result=-6.164887804886803
+[OK] makeChunks -> list_size=35, chunk_size=3, num_chunks=12
+[OK] dumpContentIntoFile -> content_len=165, reported_size=165
+[ROUND 38/50]
+[OK] getAllSLOC -> total_sloc=82 for 5 files
+[OK] Average -> input_len=2, result=-644.9292611871787
+[OK] Median -> input_len=2, result=-70.32193000056543
+[OK] makeChunks -> list_size=38, chunk_size=9, num_chunks=5
+[OK] dumpContentIntoFile -> content_len=26, reported_size=26
+[ROUND 39/50]
+[OK] getAllSLOC -> total_sloc=61 for 5 files
+[OK] Average -> input_len=11, result=-116.16355149064901
+[OK] Median -> input_len=12, result=352.91470742481374
+[OK] makeChunks -> list_size=0, chunk_size=2, num_chunks=0
+[OK] dumpContentIntoFile -> content_len=169, reported_size=169
+[ROUND 40/50]
+[OK] getAllSLOC -> total_sloc=73 for 4 files
+[OK] Average -> input_len=8, result=-157.04862975301614
+[OK] Median -> input_len=15, result=-150.08235719252514
+[OK] makeChunks -> list_size=32, chunk_size=10, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=49, reported_size=49
+[ROUND 41/50]
+[OK] getAllSLOC -> total_sloc=38 for 2 files
+[OK] Average -> input_len=3, result=75.63392660623875
+[OK] Median -> input_len=2, result=-674.0985543730735
+[OK] makeChunks -> list_size=4, chunk_size=3, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=152, reported_size=152
+[ROUND 42/50]
+[OK] getAllSLOC -> total_sloc=35 for 4 files
+[OK] Average -> input_len=23, result=-83.87580378728713
+[OK] Median -> input_len=9, result=-208.93401367426236
+[OK] makeChunks -> list_size=38, chunk_size=5, num_chunks=8
+[OK] dumpContentIntoFile -> content_len=105, reported_size=105
+[ROUND 43/50]
+[OK] getAllSLOC -> total_sloc=33 for 3 files
+[OK] Average -> input_len=15, result=-63.97640791635942
+[OK] Median -> input_len=22, result=-25.456531089345333
+[OK] makeChunks -> list_size=25, chunk_size=7, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=89, reported_size=89
+[ROUND 44/50]
+[OK] getAllSLOC -> total_sloc=50 for 3 files
+[OK] Average -> input_len=6, result=106.81802439755971
+[OK] Median -> input_len=7, result=211.60827149521583
+[OK] makeChunks -> list_size=23, chunk_size=3, num_chunks=8
+[OK] dumpContentIntoFile -> content_len=158, reported_size=158
+[ROUND 45/50]
+[OK] getAllSLOC -> total_sloc=44 for 3 files
+[OK] Average -> input_len=13, result=13.512200835608374
+[OK] Median -> input_len=13, result=-369.32599489440827
+[OK] makeChunks -> list_size=6, chunk_size=9, num_chunks=1
+[OK] dumpContentIntoFile -> content_len=47, reported_size=47
+[ROUND 46/50]
+[OK] getAllSLOC -> total_sloc=71 for 4 files
+[OK] Average -> input_len=6, result=367.92570668682544
+[OK] Median -> input_len=13, result=157.1087841466092
+[OK] makeChunks -> list_size=18, chunk_size=5, num_chunks=4
+[OK] dumpContentIntoFile -> content_len=41, reported_size=41
+[ROUND 47/50]
+[OK] getAllSLOC -> total_sloc=67 for 4 files
+[OK] Average -> input_len=4, result=-343.45789778261894
+[OK] Median -> input_len=16, result=-203.55906011855018
+[OK] makeChunks -> list_size=5, chunk_size=5, num_chunks=1
+[OK] dumpContentIntoFile -> content_len=68, reported_size=68
+[ROUND 48/50]
+[OK] getAllSLOC -> total_sloc=87 for 4 files
+[OK] Average -> input_len=13, result=-375.64428622454403
+[OK] Median -> input_len=9, result=-359.2639644719437
+[OK] makeChunks -> list_size=6, chunk_size=3, num_chunks=2
+[OK] dumpContentIntoFile -> content_len=80, reported_size=80
+[ROUND 49/50]
+[OK] getAllSLOC -> total_sloc=44 for 5 files
+[OK] Average -> input_len=22, result=206.0316220415583
+[OK] Median -> input_len=3, result=207.84304189399631
+[OK] makeChunks -> list_size=17, chunk_size=8, num_chunks=3
+[OK] dumpContentIntoFile -> content_len=100, reported_size=100
+[ROUND 50/50]
+[OK] getAllSLOC -> total_sloc=96 for 4 files
+[OK] Average -> input_len=18, result=181.07845505081764
+[OK] Median -> input_len=22, result=-171.40934748499217
+[OK] makeChunks -> list_size=17, chunk_size=2, num_chunks=9
+[OK] dumpContentIntoFile -> content_len=146, reported_size=146
+------ FUZZING END ------
